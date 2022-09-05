@@ -1,0 +1,56 @@
+:root {
+    --main-font-family: Helvetica;
+    --main-font-size: 32px;
+    --main-font-weight: bold;
+    --main-color: white;
+}
+
+.headline h1{
+    font-family: var(--main-font-family);
+    background-image: url('resources/images/patterns.jpeg');
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+p {
+    font-family: var(--main-font-family);
+    font-size: 18px;
+}
+
+h3 {
+    font-family: var(--main-font-family);
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+
+.hacksaw h2 {
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    color: var(--main-color);
+    background-color: mediumspringgreen;
+}
+
+.frames h2 {
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    color: var(--main-color);
+    background-color: lightcoral;
+}
+
+.finnish h2 {
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    color: var(--main-color);
+    background-color: skyblue;
+}
